@@ -23,5 +23,13 @@
   }
   .footer {
     text-align: center;
-    background-color: green;
+    background-color: #f5bfd2;
   }
+  .navbar {
+    color: black;
+    background-color: #f5bfd2;
+  }
+  .navbar-nav {
+    color: #f5bfd2;
+  }
+  
