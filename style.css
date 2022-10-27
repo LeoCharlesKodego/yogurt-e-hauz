@@ -1,27 +1,8 @@
 
 
-.fa {
-  padding: 20px;
-text-align: center;
-  margin: 5px 2px;
-  font-size: 30px;
-  width: 50px;
-}
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-.fa-instagram {
-  background: #125688;
-  color: white;
-}
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
-.footer {
-  text-align: center;
-  background-color: #f5bfd2;
+h1 {
+  color: rebeccapurple;
+  font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .navbar {
   color: black;
@@ -30,6 +11,29 @@ text-align: center;
 .navbar-nav {
   color: #f5bfd2;
 }
+
+.nav-item {
+  font-size: large;
+  margin-top: 300px;
+}
+.modal-header {
+  background: aqua;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .container1 {
   border: black;
   border-style: solid;
@@ -78,4 +82,40 @@ text-align: center;
   display: inline-block;
   text-align: center;
 }
-  
+.carousel-inner {
+  margin: auto;
+}
+.container9 {
+  display: inline-block;
+}
+.container11 {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.nutrition {
+  text-align: center;
+}
+.fa {
+  padding: 20px;
+text-align: center;
+  margin: 5px 2px;
+  font-size: 30px;
+  width: 50px;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.footer {
+  text-align: center;
+  background-color: #f5bfd2;
+}
