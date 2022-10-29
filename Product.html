@@ -8,69 +8,79 @@
     <script src="script.js"></script>
 </head>
 <body>
-  <div class="container-fluid">
-  <nav class="navbar navbar-expand-lg">
-    <img src="assets/chryslee's.png">
-      <h1>YOGURT e-HAUZ</h1>
-        <span class="navbar-toggler-icon"></span>
-      <div class="button" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+  <div class="nav">
+    <nav class="navbar navbar-expand-sm bg-dark">
+      <a class="navbar-brand">
+        <img src="assets/e-hauz.png">YOGURT e-HAUZ</a>
+      <div class="container-fluid">
+        <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="true" href="index.html">Home</a></li>
+            <a class="nav-link" href="index.html">HOME</a>
+          </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="true" href="Product.html">Product</a></li>
+            <a class="nav-link" href="Product.html">PRODUCT</a>
+          </li>
           <li class="nav-item">
-            <a class="nav-link" aria-current="true" href="Nutrition.html">Nutrition</a>
-            <li class="nav-item">
-              <a class="nav-link" data-bs-toggle="modal" href= "#mymodal">Order Now</a>
-                     
-          
-            <div class="container10 mt-5">
-            <div class="modal" id="mymodal">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title">Order Now</h5>
-                  </div>
-                  <div class="modal-body">
-                    <form>
-                      <div class="mb-3">
-                        <label class="form-label">Name</label>
-                        <input type="text" class="form-control">
-                      </div>
-                      <div class="mb-3">
-                          <label class="form-label">Address</label>
-                          <input type="address" class="form-control">
-                      </div>
-                      <div class="mb-3">
-                          <label class="form-label">Order</label>
-                          <select class="custom-select">
-                            <option selected>Open this select products</option>
-                            <option value="1">Greek Yogurt (1000ml)</option>
-                            <option value="2">Greek Yogurt (500ml)</option>
-                            <option value="3">Greek Yogurt (90ml)</option>
-                            <option value="1">Plain Yogurt (1000ml)</option>
-                            <option value="2">Plain Yogurt (500ml)</option>
-                            <option value="3">Plain Yogurt (90ml)</option>
-                            <option value="1">Ice Cream Yogurt (1000ml)</option>
-                            <option value="2">Ice Cream Yogurt (500ml)</option>
-                            <option value="3">ice Cream Yogurt (90ml)</option>
-                          </select>
-                      </div>
-                    </form>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="submit" class="btn-primary">Pay Now</button>
-                    <button type="submit" class="btn-danger" data-bs-dismiss="modal">cancel</button>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <a class="nav-link" href="Nutrition.html">NUTRITION</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="modal" href= "#mymodal">ORDER NOW</a>
           </li>
         </ul>
       </div>
+    </nav>
   </div>
-  </nav>
+  
+  <div class="container10 mt-5">
+    <div class="modal" id="mymodal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Order Now</h5>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label class="form-label">Name</label>
+                <input type="text" class="form-control" />
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Address</label>
+                <input type="address" class="form-control" />
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Order</label>
+                <select class="custom-select">
+                  <option selected>Open this select products</option>
+                  <option value="1">Greek Yogurt (1000ml)</option>
+                  <option value="2">Greek Yogurt (500ml)</option>
+                  <option value="3">Greek Yogurt (90ml)</option>
+                  <option value="1">Plain Yogurt (1000ml)</option>
+                  <option value="2">Plain Yogurt (500ml)</option>
+                  <option value="3">Plain Yogurt (90ml)</option>
+                  <option value="1">Ice Cream Yogurt (1000ml)</option>
+                  <option value="2">Ice Cream Yogurt (500ml)</option>
+                  <option value="3">ice Cream Yogurt (90ml)</option>
+                </select>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="submit"
+              class="btn-primary"
+              data-bs-toggle="#merchant.html"
+            >
+              Pay Now
+            </button>
+            <button type="submit" class="btn-danger" data-bs-dismiss="modal">
+              cancel
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 <br>
   <div class="row">
     <div class="col-3">

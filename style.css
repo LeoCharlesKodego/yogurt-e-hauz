@@ -1,18 +1,39 @@
+body {
+  font-family: sans-serif;
+}
+
 h1 {
   color: rebeccapurple;
   font-family: Georgia, "Times New Roman", Times, serif;
-}
-
-.modal-header {
-  background: aquamarine;
-  color: rgb(223, 64, 64);
-}
-
-.best {
-  background-color: rgb(212, 43, 122);
   text-align: center;
-  font-weight: bolder;
 }
+
+nav {
+  height: 85px;
+  width: 100%;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.4);
+}
+nav ul li a:hover,
+
+nav ul li a {
+  color: white;
+  display: block;
+  padding: 0 15px;
+  line-height: 70px;
+  font-size: 20px;
+  transition: 0.5s;
+}
+.navbar-brand {
+  color: white;
+  font-size: 33px;
+  font-weight: bold;
+  line-height: 70px;
+  padding-left: 50px;
+}
+.nav-item :hover {
+  background-color: white;
+}
+
 .row {
   padding-left: 15%;
 }
