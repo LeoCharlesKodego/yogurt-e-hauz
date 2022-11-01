@@ -11,16 +11,16 @@ h1 {
 nav {
   height: 85px;
   width: 100%;
+  background: #063247;
   box-shadow: 0 3px 15px rgba(0, 0, 0, 0.4);
 }
-nav ul li a:hover,
 
 nav ul li a {
-  color: white;
   display: block;
   padding: 0 15px;
   line-height: 70px;
   font-size: 20px;
+  background: #063247;
   transition: 0.5s;
 }
 .navbar-brand {
@@ -30,55 +30,55 @@ nav ul li a {
   line-height: 70px;
   padding-left: 50px;
 }
-.nav-item :hover {
-  background-color: white;
-}
 
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: white;
+}
+.modal-header {
+  color: white;
+  background: #063247;
+}
 .row {
+  width: 100%;
   padding-left: 15%;
 }
 .card {
-  width: 13rem;
-  height: 10%;
-  text-align: center;
-  border: #125688;
-  margin-bottom: 3;
+  width: 14rem;
+  height: 20rem;
+  border: solid;
 }
-.nutrition {
+
+.col-3 {
+  padding-top: 100px;
+  margin-top: 7px;
+  margin-bottom: 20px;
+}
+
+.col-4 {
+  padding-top: 100px;
+  margin-top: 7px;
+  margin-bottom: 20px;
+}
+
+.enroll {
+  width: 100px;
+  margin: 28px;
+  cursor: pointer;
+  background: #063247;
+  padding: 5px;
   text-align: center;
 }
 
-.fa {
-  padding: 20px;
+
+.nutrition {
   text-align: center;
-  margin: 5px 2px;
-  font-size: 30px;
-  width: 50px;
 }
-.fa:hover {
-  opacity: 0.7;
+table {
+  margin-left: 800px;
 }
-.fa-facebook {
-  background: #3b5998;
-  color: white;
-}
-.fa-instagram {
-  background: #125688;
-  color: white;
-}
-.fa-twitter {
-  background: #55acee;
-  color: white;
-}
-.footer {
-  height: 100%;
-  text-align: center;
-  font-size: larger;
-}
-.about {
-  font-size: larger;
-  color: white;
-}
+
 @media screen and (max-width: 800px) {
   .leftcolumn,
   .rightcolumn {
