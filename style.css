@@ -1,5 +1,6 @@
 body {
   font-family: sans-serif;
+  width: 100%;
 }
 
 h1 {
@@ -10,7 +11,7 @@ h1 {
 }
 
 nav {
-  height: 85px;
+  height: 95px;
   width: 100%;
   background: #063247;
   box-shadow: 0 3px 15px rgba(0, 0, 0, 0.4);
@@ -24,11 +25,11 @@ nav ul li a {
   background: #063247;
   transition: 0.5s;
 }
+
 .navbar-brand {
   color: white;
   font-size: 33px;
   font-weight: bold;
-  line-height: 70px;
   padding-left: 50px;
 }
 
@@ -37,23 +38,24 @@ nav ul li a {
   padding: 0.5rem 1rem;
   color: white;
 }
+
 .modal-header {
   color: white;
   background: #063247;
 }
+
 .row {
   width: 100%;
   padding-left: 4%;
   margin-top: -3%;
   margin-bottom: 5%;
 }
+
 .product {
   width: 100%;
-  padding-left: 4%;
   margin-top: -3%;
   margin-bottom: -5%;
-  padding-right: 4%;
-  
+
 }
 
 .col-2 {
@@ -76,6 +78,7 @@ nav ul li a {
   background-color: white;
   border-top: none;
 }
+
 .links1 {
   text-align: center;
   width: 100px;
@@ -93,15 +96,19 @@ nav ul li a {
 .nutrition {
   text-align: center;
 }
+
 table {
-  margin-left: 800px;
+  margin-left: 45%;
 }
 
 .footer-container {
   text-align: center;
   background: #063247;
   color: white;
-  display: block;
+  width: 100%;
+  padding: none;
+}
+.footer1 {
   width: 100%;
 }
 
